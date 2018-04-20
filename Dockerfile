@@ -1,5 +1,7 @@
 FROM alpine:3.7
-LABEL maintainer="Simon Erhardt <hello@rootlogin.ch>"
+LABEL maintainer="Simon Erhardt <hello@rootlogin.ch>" \
+  org.label-schema.vcs-ref=$VCS_REF \
+  org.label-schema.vcs-url="https://github.com/chrootLogin/docker-squid"
 
 RUN set -ex \
 
