@@ -2,6 +2,8 @@
 
 Minimal Squid docker image based on Alpine Linux 3.7.
 
+[![](https://images.microbadger.com/badges/version/rootlogin/squid.svg)](https://microbadger.com/images/rootlogin/squid "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/rootlogin/squid.svg)](https://microbadger.com/images/rootlogin/squid "Get your own image badge on microbadger.com")
+
 ## Usage
 
 It's recommended that you use host networking when running squid, that you can see the source IP. Otherwise you will see the IP of your docker host.
