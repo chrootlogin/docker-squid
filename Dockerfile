@@ -1,9 +1,9 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 ARG BUILD_DATE
 ARG VCS_REF
 
-ARG SQUID_VERSION=3.5.27
+ARG SQUID_VERSION=3.5.28
 
 LABEL maintainer="Simon Erhardt <hello@rootlogin.ch>" \
   org.label-schema.name="Squid" \
@@ -32,6 +32,7 @@ RUN set -ex \
     linux-pam-dev \
     openldap-dev \
     perl \
+    perl-dbi \
     samba \
     samba-winbind-clients \
     tini \
