@@ -24,6 +24,7 @@ RUN set -ex \
     heimdal-dev \
     libcap \
     libcap-dev \
+    libdbi-drivers \
     libldap \
     libressl \
     libressl-dev \
