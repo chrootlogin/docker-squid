@@ -33,6 +33,7 @@ RUN set -ex \
     linux-pam-dev \
     openldap-dev \
     perl \
+    perl-dbd-mysql \
     perl-dbi \
     samba \
     samba-winbind-clients \
